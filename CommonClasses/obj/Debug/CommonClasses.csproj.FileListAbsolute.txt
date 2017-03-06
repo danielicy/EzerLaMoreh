@@ -1,0 +1,11 @@
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\CommonClasses\obj\Debug\CommonClasses.csprojResolveAssemblyReference.cache
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\CommonClasses\bin\Debug\CommonClasses.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\CommonClasses\bin\Debug\CommonClasses.pdb
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\CommonClasses\bin\Debug\Interfaces.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\CommonClasses\bin\Debug\Model.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\CommonClasses\bin\Debug\Enums.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\CommonClasses\bin\Debug\Interfaces.pdb
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\CommonClasses\bin\Debug\Model.pdb
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\CommonClasses\bin\Debug\Enums.pdb
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\CommonClasses\obj\Debug\CommonClasses.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\CommonClasses\obj\Debug\CommonClasses.pdb

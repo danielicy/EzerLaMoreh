@@ -1,0 +1,21 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="EzerLaMorehStyles/ButtonStyles.xaml" />
+        <ResourceDictionary Source="EzerLaMorehStyles/HyperLinkStyle.xaml"  />
+        <ResourceDictionary Source="EzerLaMorehStyles/TextBoxStyle.xaml" />
+        <ResourceDictionary Source="EzerLaMorehStyles/LabelStyles.xaml" />
+        <ResourceDictionary Source="EzerLaMorehStyles/CalendarStyle.xaml" />
+        <ResourceDictionary Source="EzerLaMorehStyles/IconResources.xaml"/>
+        <ResourceDictionary Source="EzerLaMorehStyles/WindowStyles.xaml"/>
+        <ResourceDictionary Source="EzerLaMorehStyles/ContentControlStyle.xaml"/>
+        <ResourceDictionary Source="EzerLaMorehStyles/DateTimePickerStyle.xaml"/>
+        <ResourceDictionary Source="EzerLaMorehStyles/ComboBoxStyle.xaml"/>
+        <ResourceDictionary Source="/EzerLaMoreh;component/Resources/Styles/EzerLaMorehStyles/DataGridStyle.xaml"/>
+
+    </ResourceDictionary.MergedDictionaries>
+    <Style TargetType="Button" BasedOn="{StaticResource StandardButton}"/>
+    <Style TargetType="Hyperlink" BasedOn="{StaticResource StandardHyperLink}"/>
+    <Style TargetType="CalendarButton" BasedOn="{StaticResource CalendarButtonStyle}"/>
+
+</ResourceDictionary>

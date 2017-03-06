@@ -1,0 +1,7 @@
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\Model\bin\Debug\Model.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\Model\bin\Debug\Model.pdb
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\Model\bin\Debug\Enums.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\Model\bin\Debug\Enums.pdb
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\Model\obj\Debug\Models.csprojResolveAssemblyReference.cache
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\Model\obj\Debug\Model.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\Model\obj\Debug\Model.pdb

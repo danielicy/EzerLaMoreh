@@ -1,0 +1,10 @@
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\Enums\bin\Debug\Enums.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\Enums\bin\Debug\Enums.pdb
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\Enums\obj\Debug\Enums.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\Enums\obj\Debug\Enums.pdb
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\Enums\obj\Debug\Enums.csprojResolveAssemblyReference.cache
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\Enums\bin\Debug\Enums.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\Enums\bin\Debug\Enums.pdb
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\Enums\obj\Debug\Enums.csprojResolveAssemblyReference.cache
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\Enums\obj\Debug\Enums.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\Enums\obj\Debug\Enums.pdb

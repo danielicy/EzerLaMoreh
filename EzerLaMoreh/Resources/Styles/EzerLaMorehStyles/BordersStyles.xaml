@@ -1,0 +1,62 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Brushes.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+
+    <Style TargetType="{x:Type Border}" x:Key="BasicBorder">
+        <Setter Property="Margin" Value="4"/>
+        <Setter Property="Padding" Value="0"/>
+
+    </Style>
+
+
+    <Style  x:Key="DialogBase" BasedOn="{StaticResource BasicBorder}" TargetType="{x:Type Border}">
+        <Setter Property="CornerRadius" Value="45"/>
+        <Setter Property="Effect">
+            <Setter.Value>
+                <DropShadowEffect Color="#FF7C90C7"/>
+            </Setter.Value>
+        </Setter>
+       
+    </Style>
+
+
+    <Style  x:Key="DialogBorder" BasedOn="{StaticResource DialogBase}" TargetType="{x:Type Border}">
+        
+        <Setter Property="Background" Value="{StaticResource dialogBrush}"/>
+    </Style>
+
+    <Style  x:Key="UtilityBorder" BasedOn="{StaticResource DialogBase}" TargetType="{x:Type Border}">
+        <Setter Property="CornerRadius" Value="15"/>
+        <Setter Property="Background" Value="{StaticResource UtilityBrush}"/>
+    </Style>
+
+    <Style  x:Key="BehaveBorder" BasedOn="{StaticResource DialogBase}" TargetType="{x:Type Border}">
+        <Setter Property="CornerRadius" Value="15"/>
+        <Setter Property="Background" Value="{StaticResource BehaveBrush}"/>
+    </Style>
+    
+    <Style  x:Key="AcomplishmentBorder" BasedOn="{StaticResource DialogBase}" TargetType="{x:Type Border}">
+        <Setter Property="CornerRadius" Value="15"/>
+        <Setter Property="Background" Value="{StaticResource acomplishmentBrush}"/>
+    </Style>
+
+
+    <!--=====================================================================================-->
+
+    <Style  x:Key="UIBorder" BasedOn="{StaticResource BasicBorder}" TargetType="{x:Type Border}">
+            <Setter Property="Background" Value="{StaticResource UIWindowBrush}"/>
+        <Setter Property="CornerRadius" Value="15"/>
+    </Style>
+    
+    <!--=====================================================================================-->
+
+    <Style x:Key="baseStyle" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="12" />
+        <Setter Property="Background" Value="Orange" />
+    </Style>   
+
+
+</ResourceDictionary>
+ 

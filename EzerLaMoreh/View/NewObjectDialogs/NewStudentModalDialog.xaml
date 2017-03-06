@@ -1,0 +1,163 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    xmlns:custom="clr-namespace:EzerLaMoreh.CustomUser_Controls"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"   
+    mc:Ignorable="d"
+    
+    x:Class="EzerLaMoreh.View.add.NewStudentModalDialog"  WindowStartupLocation="CenterScreen" Template="{StaticResource ModalDialogTemplate}" Style="{StaticResource PopupWindow}"
+        Title="תלמיד חדש" Height="420" Width="730"   >
+    <Window.Resources>
+        <ControlTemplate x:Key="HeaderButtonTemplate"
+                 TargetType="{x:Type Button}">
+            <Grid Cursor="Hand">
+                <VisualStateManager.VisualStateGroups>
+                    <VisualStateGroup x:Name="CommonStates">
+                        <VisualState x:Name="Normal" />
+                        <VisualState x:Name="MouseOver">
+                            <Storyboard>
+                                <ColorAnimation Duration="0"
+                            To="{DynamicResource GlyphMouseOver}"
+                            Storyboard.TargetProperty="(TextElement.Foreground).(SolidColorBrush.Color)"
+                            Storyboard.TargetName="buttonContent" />
+                            </Storyboard>
+                        </VisualState>
+                        <VisualState x:Name="Disabled">
+                            <Storyboard>
+                                <DoubleAnimation Duration="0"
+                             To=".5"
+                             Storyboard.TargetProperty="Opacity"
+                             Storyboard.TargetName="buttonContent" />
+                            </Storyboard>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateManager.VisualStateGroups>
+                <ContentPresenter x:Name="buttonContent" Width="100" Height="20"                    
+                      ContentTemplate="{TemplateBinding ContentTemplate}"
+                      Content="{TemplateBinding Content}"
+                      TextElement.Foreground="#FFFF0F0F"/>
+            </Grid>
+        </ControlTemplate>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.Resources>
+            <DataTemplate DataType="{x:Type ValidationError}">
+                <TextBlock FontStyle="Italic"  Foreground="Red"  
+                           FontSize="10" Margin="0,1" Text="{Binding Path=ErrorContent}" />
+            </DataTemplate>
+        </Grid.Resources>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="212*" />
+            <ColumnDefinition Width="241*" />
+            <ColumnDefinition Width="269*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="55*"/>
+            <RowDefinition Height="46*"/>
+            <RowDefinition Height="57*"/>
+            <RowDefinition Height="70*"/>
+            <RowDefinition Height="66*"/>
+
+            <RowDefinition Height="67*"/>
+
+            <RowDefinition Height="51*"/>
+        </Grid.RowDefinitions>
+        <Label Content="הוספת תלמיד חדש" Grid.Column="1" Style="{StaticResource HeaderLabel}" Margin="40,7,31,7" Width="170" />
+        <StackPanel Grid.Column="2" Orientation="Horizontal" >
+            <Label  Content= "כיתה:" />
+            <Label  Content= "{Binding Path=class1.ClassName}"/>
+
+        </StackPanel>
+        <StackPanel Grid.Column="2">
+            <custom:CloseButton   HorizontalAlignment="Right"  Margin=" 0,10,30,0"/>
+        </StackPanel>
+
+        <Border Grid.RowSpan="4" BorderThickness="25,25" CornerRadius="30" Height="200" VerticalAlignment="Top">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF547BFF" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <Button Style="{StaticResource BrowsePicButton}" />
+
+        </Border>
+        <Grid   Grid.Column="1" Grid.Row="1"  >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Label Content="שם פרטי"    />
+            <TextBox x:Name="txtName"  TextWrapping="Wrap" Text="{Binding Path=Model.FirstName, ValidatesOnDataErrors=True, UpdateSourceTrigger=PropertyChanged}"  Width="120"
+                                    Validation.ErrorTemplate="{x:Null}"/>
+            <ContentPresenter   Grid.Row="1"
+                           Content="{Binding ElementName=txtName, Path=(Validation.Errors).CurrentItem}" />
+        </Grid>
+        <Grid  Grid.Column="2" Grid.Row="1" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Label Content="שם משפחה"   />
+            <TextBox x:Name="txtLastName" TextWrapping="Wrap" Text="{Binding Path=Model.LastName}"  Width="120"/>
+            <ContentPresenter   Grid.Row="1"
+                           Content="{Binding ElementName=txtLastName, Path=(Validation.Errors).CurrentItem}" />
+        </Grid>
+        <Grid   Grid.Column="1" Grid.Row="2"  >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Label Content="ת.ז."   />
+            <TextBox x:Name="txtStudentID" Height="23" TextWrapping="Wrap" Text="{Binding Path=Model.TZ}"  Width="120"/>
+            <ContentPresenter   Grid.Row="1"
+                           Content="{Binding ElementName=txtStudentID, Path=(Validation.Errors).CurrentItem}" />
+        </Grid>
+        <StackPanel Grid.Column="2" Grid.Row="2" Orientation="Horizontal">
+            <Label Content="תאריך לידה" />
+            <DatePicker Name="DP" VerticalAlignment="Center"  SelectedDate="{Binding Path=Model.BirthDay}" SelectedDateFormat="Short" Margin="0,13" Width="116"   />
+            <!--Text="{Binding Path=BirthDay,StringFormat='dd/MM/yyy'}" />      SelectedDate="{Binding Path=BirthDay,StringFormat='dd/MM/yyy'}"-->
+        </StackPanel>
+        <Grid  Grid.Column="1" Grid.Row="3" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Label Content="כתובת" Height="Auto" Margin="5,5,5,1"   />
+            <TextBox x:Name="txtAddress" Width="150"   Text="{Binding Path=Model.Address}" Margin="30,10,29,0"/>
+            <ContentPresenter   Grid.Row="1"
+                           Content="{Binding ElementName=txtAddress, Path=(Validation.Errors).CurrentItem}" />
+        </Grid>
+        <StackPanel  Grid.Column="2" Grid.Row="3" Orientation="Horizontal">
+            <Label Content="עיר"   />
+            <TextBox x:Name="txtCity" Height="23" TextWrapping="Wrap" Text="{Binding Path=Model.City}"  Width="126" Margin="5,10"/>
+        </StackPanel>
+        <StackPanel  Grid.Column="0" Grid.Row="4" Orientation="Horizontal">
+            <Label Content="טלפון בבית"   />
+            <TextBox x:Name="txtPhone1" Height="23" TextWrapping="Wrap" Text="{Binding Path=Model.Phone1}"  Width="126" Margin="5,10"/>
+        </StackPanel>
+        <StackPanel  Grid.Column="1" Grid.Row="4" Orientation="Horizontal">
+            <Label Content="טלפון אבא"   />
+            <TextBox x:Name="txtPhone2" Height="23" TextWrapping="Wrap" Text="{Binding Path=Model.Phone2}"  Width="126" Margin="5,10"/>
+        </StackPanel>
+        <StackPanel  Grid.Column="2" Grid.Row="4" Orientation="Horizontal">
+            <Label Content="טלפון אמא"   />
+            <TextBox x:Name="txtPhone3" Height="23" TextWrapping="Wrap" Text="{Binding Path=Model.Phone3}"  Width="126" Margin="5,10"/>
+        </StackPanel>
+        <StackPanel   Grid.Row="5" Orientation="Horizontal">
+            <Label Content="שם אבא"   />
+            <TextBox x:Name="txtDad" Height="23" TextWrapping="Wrap" Text="{Binding Path=Model.DadName}"  Width="126" Margin="5,10"/>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Grid.Row="5" Orientation="Horizontal">
+            <Label Content="שם אמא"   />
+            <TextBox x:Name="txtMom" Height="23" TextWrapping="Wrap" Text="{Binding Path=Model.MomName}"  Width="126" Margin="5,10"/>
+        </StackPanel>
+        <StackPanel Margin="0,28,0,42" Grid.Column="2"  Grid.Row="5" VerticalAlignment="Center" Height="48" Grid.RowSpan="2">
+            <custom:OkCancelButtons   />
+        </StackPanel>
+
+    </Grid>
+</Window>

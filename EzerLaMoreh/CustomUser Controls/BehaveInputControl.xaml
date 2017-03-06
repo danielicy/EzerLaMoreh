@@ -1,0 +1,52 @@
+﻿<UserControl x:Class="EzerLaMoreh.CustomUser_Controls.BehaveInputControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:enums="clr-namespace:Enums;assembly=Enums"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             mc:Ignorable="d"  
+             xmlns:converters="clr-namespace:Converters"
+             FlowDirection="RightToLeft">
+    <!--d:DesignWidth="100">-->
+    <UserControl.Resources>
+        <converters:ValToColorConverter x:Key="valToColor" />
+        <ObjectDataProvider x:Key="PresenceList" MethodName="GetValues" ObjectType="{x:Type enums:PresenceEnum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="enums:PresenceEnum"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+        <ObjectDataProvider x:Key="ArrivalList" MethodName="GetValues" ObjectType="{x:Type enums:ArrivalEnum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="enums:ArrivalEnum"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+        <ObjectDataProvider x:Key="AttitudeList" MethodName="GetValues" ObjectType="{x:Type enums:AttitudeEnum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="enums:AttitudeEnum"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+
+    </UserControl.Resources>
+    <Grid>
+        <StackPanel Orientation="Horizontal" >
+
+            <ComboBox ItemsSource="{Binding Source={StaticResource PresenceList}}"  SelectedItem="{Binding Model.Presence}"  
+                      Background="{Binding Model.Presence, Converter={StaticResource valToColor}}" />
+            <ComboBox ItemsSource="{Binding Source={StaticResource ArrivalList}}"   SelectedItem="{Binding Model.Arrival}"
+                      Background="{Binding Model.Arrival, Converter={StaticResource valToColor}}" />
+            <ComboBox ItemsSource="{Binding Source={StaticResource AttitudeList}}"   SelectedItem="{Binding Model.Attitude}" 
+                       Background="{Binding Model.Attitude, Converter={StaticResource valToColor}}" />
+            <ComboBox ItemsSource="{Binding Source={StaticResource AttitudeList}}"   SelectedItem="{Binding Model.SocialBehave}" 
+                       Background="{Binding Model.SocialBehave, Converter={StaticResource valToColor}}" />
+            <TextBox   Style="{StaticResource inflatingTextBoxStyle}" Text="{Binding Model.Comments}" />
+
+            <!--<ComboBox Grid.Row="1"    Height="25" Width="100"  Padding="5"   HorizontalAlignment="Center"                                           
+                                                  ItemsSource ="{Binding Source={StaticResource PeriodsList}}"                                                   
+                                                  SelectedItem="{Binding RelativeSource={RelativeSource FindAncestor,
+                                            AncestorType={x:Type HeaderedContentControl}}, Path=DataContext.SelectedPeriod}" />-->
+
+
+        </StackPanel>
+    </Grid>
+</UserControl>

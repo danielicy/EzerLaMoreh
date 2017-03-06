@@ -1,0 +1,10 @@
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\Utilities\bin\Debug\Utilities.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\Utilities\bin\Debug\Utilities.pdb
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\Utilities\obj\Debug\Utilities.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\Utilities\obj\Debug\Utilities.pdb
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\Utilities\obj\Debug\Utilities.csprojResolveAssemblyReference.cache
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\Utilities\bin\Debug\Utilities.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\Utilities\bin\Debug\Utilities.pdb
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\Utilities\obj\Debug\Utilities.csprojResolveAssemblyReference.cache
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\Utilities\obj\Debug\Utilities.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\Utilities\obj\Debug\Utilities.pdb

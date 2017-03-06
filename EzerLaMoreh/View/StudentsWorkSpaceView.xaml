@@ -1,0 +1,235 @@
+﻿<UserControl xmlns:chartingToolkit="clr-namespace:System.Windows.Controls.DataVisualization.Charting;assembly=System.Windows.Controls.DataVisualization.Toolkit" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:v="clr-namespace:EzerLaMoreh.View"
+             xmlns:vm="clr-namespace:EzerLaMoreh.ViewModel"
+             xmlns:enums="clr-namespace:Enums;assembly=Enums"
+             x:Class="EzerLaMoreh.View.StudentsWorkSpaceView" 
+             xmlns:Converters="clr-namespace:Converters"  
+            
+             mc:Ignorable="d" 
+             FlowDirection="RightToLeft" d:DesignWidth="1000">
+    <UserControl.Resources>
+        <DataTemplate  x:Key="ListBoxItemTemplate">
+            <Border Style="{StaticResource UIBorder}" Margin="5" Padding="5" >
+                <ContentControl>
+                    <StackPanel>
+                        <Border CornerRadius="15" Height="140" Width="120" FlowDirection="LeftToRight">
+                            <Border.Background>
+                                <ImageBrush ImageSource="{Binding  StudPic}" Stretch="Uniform"/>
+                            </Border.Background>
+                        </Border>
+
+                        <TextBlock HorizontalAlignment="Center" >                             
+                            <Run Text="{Binding Model.FirstName}" />
+                            <Run Text=" " /> <!-- space -->
+                            <Run Text="{Binding Model.LastName}" />
+                        </TextBlock>
+                    </StackPanel>
+                </ContentControl>
+            </Border>
+        </DataTemplate>
+        <ObjectDataProvider x:Key="PeriodsList" MethodName="GetValues" ObjectType="{x:Type enums:PeriodEnum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="enums:PeriodEnum"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+       
+        <enums:EnumValueToDecriptionConverter x:Key="EnumValueToDecriptionConverter" />
+      
+        <!--<ObjectDataProvider x:Key="ArrivalTotList" MethodName="GetValues" ObjectType="{x:Type enums:ArrivalTotEnum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="enums:ArrivalTotEnum"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>-->
+        
+        <Converters:PeriodToVisibilityConverter x:Key="PeriodToVisibile" />
+    </UserControl.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="151*"   />
+            <ColumnDefinition Width="449*"  />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="557*" />
+            <RowDefinition Height="380*" />
+        </Grid.RowDefinitions>
+        <HeaderedContentControl >
+            <HeaderedContentControl.Header>
+                <TextBlock TextAlignment="Center" Text="פרטי התלמיד" />
+            </HeaderedContentControl.Header>
+            <ContentControl   Style="{StaticResource ContentControlStyle}" >
+                <Border Style="{StaticResource UIBorder}"  >
+                    <StackPanel DataContext="{Binding Path=CurrentStudent}">
+                        <Button Style="{StaticResource BrowsePicButton}" Width="230" Height="230"  />
+                        <Grid  >
+                            <Grid.ColumnDefinitions >
+                                <ColumnDefinition Width="15*" />
+                                <ColumnDefinition Width="30*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions >
+                                <RowDefinition />
+                                <RowDefinition />
+                                <RowDefinition />
+                                <RowDefinition />
+                                <RowDefinition />
+                                <RowDefinition />
+                                <RowDefinition />
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Grid.Resources>
+                                <Style BasedOn="{StaticResource DetailTextBoxStyle}" TargetType="{x:Type TextBox}" />
+
+                            </Grid.Resources>
+
+                            <Label Content="שם:" Height="Auto" />
+                            <StackPanel Orientation="Horizontal" Grid.Column="1" HorizontalAlignment="Left" >
+                                <TextBox Text="{Binding Model.FirstName}" Margin="10,5,1,5"/>
+                                <TextBox Text="{Binding Model.LastName}"   Margin="1,5,10,5"/>
+                            </StackPanel>
+
+                            <Label Content="ת.לידה" Grid.Row="1" Height="Auto"/>
+                            <DatePicker SelectedDate="{Binding Model.BirthDay}"  Grid.Row="1" Grid.Column="1"  IsEnabled="{Binding IsEdit}" 
+                                       Margin="1,5,20,5"  />
+                            <!--<TextBox  Text="{Binding Model.BirthDay, StringFormat=dd-MM-yyyy}"  Grid.Row="1" Grid.Column="1" />-->
+
+                            <Label Content="טלפון בבית: "  Grid.Row="2" Height="Auto"/>
+                            <TextBox Text="{Binding Model.Phone1}" Grid.Row="2" Grid.Column="1" />
+
+                            <Label Content="טלפון אבא: " Grid.Row="3" Height="Auto"/>
+                            <TextBox Text="{Binding Model.Phone2}" Grid.Row="3" Grid.Column="1"/>
+
+                            <Label Content="טלפון אימא: " Grid.Row="4" Height="Auto"/>
+                            <TextBox Text="{Binding Model.Phone3}" Grid.Row="4" Grid.Column="1"/>
+
+                            <Label Content="כתובת: " Grid.Row="5" Height="Auto"/>
+                            <StackPanel Orientation="Horizontal" Grid.Row="5" Grid.Column="1">
+                                <TextBox Text="{Binding Model.Address }" Margin="10,5,1,5"/>
+                                <TextBox Text="{Binding Model.City}"  Margin="1,5,10,5"/>
+                            </StackPanel>
+
+                            <Label Content="אבא:" Grid.Row="6" Height="Auto"/>
+                            <TextBox Text="{Binding Model.DadName}" Grid.Row="6" Grid.Column="1"/>
+
+                            <Label Content="אמא: " Grid.Row="7" Height="Auto"/>
+                            <TextBox Text="{Binding Model.MomName}" Grid.Row="7" Grid.Column="1"  />
+
+                        </Grid>
+                    </StackPanel>
+                </Border>
+            </ContentControl>
+        </HeaderedContentControl>
+
+        <HeaderedContentControl Grid.Column="1" >
+            <HeaderedContentControl.Header>
+                <Label   Style="{StaticResource HeaderLabel}"  Content ="{Binding Path=CurrentClass.Model.ClassName}"/>
+            </HeaderedContentControl.Header>
+            <StackPanel Margin="10,5,0,5"  HorizontalAlignment="Left">
+                <TextBlock Margin="2">
+                                <Hyperlink Command="{Binding AddStudentCommand}"  >
+                                    <Run Text="הוסף"/>
+                                </Hyperlink>
+                                <Run Text=" | "/>
+                                <Hyperlink Command="{Binding EditStudentCommand}">
+                                    <Run Text="ערוך"/>
+                                </Hyperlink>
+                                <Run Text=" | "/>
+                                <Hyperlink Command="{Binding DeleteStudentCommand}">
+                                    <Run Text="מחק"/>
+                                </Hyperlink>
+                </TextBlock>
+                <ListBox x:Name="thumbnailListBox" ItemsSource="{Binding Path=AllStudents}" ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                 SelectedItem="{Binding Path=CurrentStudent}" VirtualizingStackPanel.IsVirtualizing="True"  VirtualizingStackPanel.VirtualizationMode="Recycling"
+                 ScrollViewer.IsDeferredScrollingEnabled="True" ItemTemplate="{StaticResource ListBoxItemTemplate}" HorizontalAlignment="Center" MaxHeight="600">
+                    <ListBox.ContextMenu>
+                        <ContextMenu>
+                            <MenuItem Header="מחק"  />
+                            <Separator/>
+                            <MenuItem Header="ערוך" />
+                        </ContextMenu>
+                    </ListBox.ContextMenu>
+                    <ListBox.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <WrapPanel/>
+                        </ItemsPanelTemplate>
+                    </ListBox.ItemsPanel>
+                </ListBox>
+            </StackPanel>
+        </HeaderedContentControl>
+
+        <HeaderedContentControl Grid.ColumnSpan="2" Grid.Row="1" >
+            <HeaderedContentControl.Header>
+                <TextBlock TextAlignment="Center" Text="נתוני התלמיד"/>
+            </HeaderedContentControl.Header>
+            <ContentControl    Style="{StaticResource ContentControlStyle}" >
+                <StackPanel>
+                    <TabControl >
+                        <TabItem  Header="התנהגות">
+                            <Border Style="{StaticResource BehaveBorder}">
+                                <Grid >
+                                    <Grid.ColumnDefinitions >
+                                        <ColumnDefinition Width="110*" />
+                                        <ColumnDefinition Width="170*" />
+                                        <ColumnDefinition Width="350*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition   />
+                                            <RowDefinition  />
+                                            <RowDefinition  />
+                                            <RowDefinition  />
+                                            <RowDefinition  />
+                                        </Grid.RowDefinitions>
+                                        <Label Content="הצג נתונים לתקופה"/>
+                                        <ComboBox Grid.Row="1"    Height="25" Width="100"  Padding="5"   HorizontalAlignment="Center"                                           
+                                                  ItemsSource ="{Binding Source={StaticResource PeriodsList}}"                                                   
+                                                  SelectedItem="{Binding RelativeSource={RelativeSource FindAncestor,
+                                            AncestorType={x:Type HeaderedContentControl}}, Path=DataContext.SelectedPeriod}" />
+                                        <DatePicker SelectedDate="{Binding DateStart}" Grid.Row="2" Style="{StaticResource PeriodDateTimePicker}"/>
+                                        <DatePicker SelectedDate="{Binding DateEnd}" Grid.Row="3" Style="{StaticResource PeriodDateTimePicker}"/>
+                                    </Grid>
+                                    <Grid Grid.Column="1" Margin="10">
+                                        <DataGrid  Name="DG1"  Height="180" ItemsSource="{Binding AverageCollection}" HorizontalScrollBarVisibility="Disabled"  
+                                                  AutoGenerateColumns="False" SelectedValue="{Binding Rows}"  >                                            
+                                            <DataGrid.Columns>
+                                                <DataGridTextColumn  Header="סווג" Width="100" Binding="{Binding Path=Key}" />
+                                                    
+                                                <DataGridTextColumn Header="הערכה" Width="150" Binding="{Binding Path=Value,Converter={StaticResource EnumValueToDecriptionConverter}}" />                                               
+                                            </DataGrid.Columns>
+                                        </DataGrid>                                       
+                                    </Grid>
+                                    <chartingToolkit:Chart   Title="Chart Title" VerticalAlignment="Top"
+                                                           Grid.Column="2" Height="300"  >
+                                         
+                                        <chartingToolkit:Chart.Axes>
+                                            <chartingToolkit:DateTimeAxis   x:Name="myDateTimeAxis"  Orientation="X" Title="תאריך"  >
+                                                <chartingToolkit:DateTimeAxis.AxisLabelStyle>
+                                                    <Style TargetType="chartingToolkit:DateTimeAxisLabel">
+                                                        <Setter Property="StringFormat" Value="{}{0:dd/MM}"/>
+                                                    </Style>
+                                                </chartingToolkit:DateTimeAxis.AxisLabelStyle>
+                                            </chartingToolkit:DateTimeAxis>
+                                            <chartingToolkit:LinearAxis Orientation="Y" ShowGridLines="True" x:Name="myYAxis" />
+                                        </chartingToolkit:Chart.Axes>
+                                        <chartingToolkit:LineSeries   DataContext="{Binding}"  Title="{Binding SelectedPropertyInfo,Converter={StaticResource EnumValueToDecriptionConverter}}"
+                                                                    DependentValueBinding="{Binding Path=Value}" 
+                                                                      IndependentValueBinding="{Binding Path=Key}" ItemsSource="{Binding SelectedPropCollection}">
+                                           
+                                        </chartingToolkit:LineSeries>
+                                    </chartingToolkit:Chart>
+                                </Grid>
+                            </Border>
+                        </TabItem>
+                        <TabItem  Header="השיגים">
+                            <Border Style="{StaticResource AcomplishmentBorder}">
+                                <StackPanel  Height="200"/>
+                            </Border>
+                        </TabItem>
+                    </TabControl>
+                </StackPanel>
+            </ContentControl>
+        </HeaderedContentControl>
+    </Grid>
+</UserControl>

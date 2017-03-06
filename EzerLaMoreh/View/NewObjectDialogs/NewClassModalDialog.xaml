@@ -1,0 +1,41 @@
+﻿<Window x:Class="EzerLaMoreh.View.add.NewClassModalDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:custom="clr-namespace:EzerLaMoreh.CustomUser_Controls"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:local="clr-namespace:EzerLaMoreh.Helpers"
+       
+        Title="הוספת כיתה חדשה" Height="300" Width="300" FlowDirection="RightToLeft" 
+        WindowStartupLocation="CenterScreen" Template="{StaticResource ModalDialogTemplate}" Style="{StaticResource PopupWindow}" ShowInTaskbar="False">
+
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60*" />
+            <RowDefinition Height="155*" />
+            <RowDefinition Height="77*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="63*" />
+            <ColumnDefinition Width="166*" />
+            <ColumnDefinition Width="63*" />
+        </Grid.ColumnDefinitions>
+        <Label Content="הוספת כיתה חדשה" Style="{StaticResource HeaderLabel}" Margin="54,10,7,10" Width="168" Grid.ColumnSpan="2"/>
+        <custom:CloseButton Grid.Column="2"  HorizontalAlignment="Right"  Margin=" 0,0,30,0"/>
+        <StackPanel HorizontalAlignment="Center"  Grid.Row="1" Grid.Column="1" Margin="15,0,21,0" Width="130"  >
+            <Label Content="שם כיתה" HorizontalAlignment="Center"  VerticalAlignment="Top"/>
+            <TextBox Name="txtName" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="{Binding Path=Model.ClassName}" VerticalAlignment="Top" Width="120" Margin="5"/>
+
+            <Label Content="שם מחנך" HorizontalAlignment="Center"  VerticalAlignment="Top"/>
+            <TextBox Name="txtTeachName" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="{Binding Path=Model.TeacherName}" VerticalAlignment="Top" Width="120" Margin="5"/>
+
+        </StackPanel>
+        <StackPanel Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" Height="48" Margin="0,15,0,14">
+            <!--<Button Content="אישור"   Style="{StaticResource ResourceKey=OkButton}" Command="{Binding Path=OKCommand}" Click="Button_Click"/>
+            <Button Content="ביטול"  Style="{StaticResource ResourceKey=CancelButton}"    Click="Button_Click"/>-->
+            <custom:OkCancelButtons   />
+        </StackPanel>
+
+
+    </Grid>
+</Window>

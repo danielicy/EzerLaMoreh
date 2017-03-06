@@ -1,0 +1,46 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+ 
+
+    <LinearGradientBrush x:Key="dialogBrush" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FFABBEF0" Offset="1"/>
+        <GradientStop Color="White"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="UIWindowBrush" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FFE4D0EA" Offset="1"/>
+        <GradientStop Color="White"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="BehaveBrush" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FFBBBEF9" Offset="1"/>
+        <GradientStop Color="White"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="acomplishmentBrush" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FFFFDEF3" Offset="1"/>
+        <GradientStop Color="White"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="UtilityBrush" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF6300A8" Offset="1"/>
+        <GradientStop Color="White"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="OkBrush" EndPoint="0,1" StartPoint="0,0">
+        <GradientStop Color="#FFF3F3F3" Offset="0"/>
+        <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+        <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+        <GradientStop Color="#FFE1FDFA" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="WarningBrush" EndPoint="0,1" StartPoint="0,0">
+        <GradientStop Color="#FFF3F3F3" Offset="0"/>
+        <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+        <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+        <GradientStop Color="#FFFFD100" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="AlertBrush" EndPoint="0,1" StartPoint="0,0">
+        <GradientStop Color="#FFF3F3F3" Offset="0"/>
+        <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+        <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+        <GradientStop Color="Red" Offset="1"/>
+    </LinearGradientBrush>
+
+
+
+</ResourceDictionary>

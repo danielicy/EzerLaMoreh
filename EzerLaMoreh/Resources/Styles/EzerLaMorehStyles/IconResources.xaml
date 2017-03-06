@@ -1,0 +1,9 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Image x:Shared="False" x:Key="MoviePosterImage" Source="/EzerLaMoreh;component/Resources/Images/BasadLogo.png"/>
+    <Image x:Shared="False" x:Key="MovieFolderImage" Source="/EzerLaMoreh;component/Resources/Images/MovieFolder.png"/>
+    <Image x:Shared="False" x:Key="StarImage" Source="/EzerLaMoreh;component/Resources/Images/Star.png"/>
+    <Image x:Shared="False" x:Key="WishListImage" Source="/EzerLaMoreh;component/Resources/Images/WishList.png"/>
+    <Image x:Shared="False" x:Key="WatchListImage" Source="/EzerLaMoreh;component/Resources/Images/WatchList.png"/>
+</ResourceDictionary>

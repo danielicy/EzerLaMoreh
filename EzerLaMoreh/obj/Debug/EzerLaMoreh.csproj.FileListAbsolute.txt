@@ -1,0 +1,166 @@
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\bin\Debug\EzerLaMoreh.exe.config
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\bin\Debug\EzerLaMoreh.exe
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\bin\Debug\EzerLaMoreh.pdb
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\bin\Debug\Model.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\bin\Debug\Enums.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\bin\Debug\Model.pdb
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\bin\Debug\Enums.pdb
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\EzerLaMoreh.csprojResolveAssemblyReference.cache
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\App.g.cs
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\EzerLaMoreh_MarkupCompile.cache
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\EzerLaMoreh.g.resources
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\EzerLaMoreh.Properties.Resources.resources
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\EzerLaMoreh.csproj.GenerateResource.Cache
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\EzerLaMoreh.exe
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\EzerLaMoreh.pdb
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\EzerLaMoreh_MarkupCompile.lref
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\bin\Debug\EzerLaMorehEntity.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\bin\Debug\EzerLaMorehEntity.pdb
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\Extras\TitleBanner.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\Extras\TitleBanner.g.cs
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\bin\Debug\CommonClasses.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\bin\Debug\CommonClasses.pdb
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\View\MainView.g.cs
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\View\MainView.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\bin\Debug\Microsoft.Windows.Shell.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\bin\Debug\ribboncontrolslibrary.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\bin\Debug\Microsoft.Windows.Shell.pdb
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\bin\Debug\Microsoft.Windows.Shell.xml
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\bin\Debug\ribboncontrolslibrary.pdb
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\bin\Debug\ribboncontrolslibrary.xml
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\bin\Debug\EntityFramework.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\bin\Debug\EntityFramework.xml
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\bin\Debug\System.Windows.Interactivity.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\View\StudentsWorkSpaceView.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\View\StudentsWorkSpaceView.g.cs
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\bin\Debug\Utilities.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\bin\Debug\Utilities.pdb
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\View\Class1WorkSpaceView.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\View\Class1WorkSpaceView.g.cs
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\EzerLaMoreh_Content.g.cs
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\bin\Debug\Microsoft.Practices.Unity.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\Resources\Styles\EzerLaMorehStyles\ButtonStyles.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\Resources\Styles\EzerLamorehSystemStyles.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\Resources\Styles\EzerLaMorehStyles\LabelStyles.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\Resources\Styles\EzerLaMorehStyles\HyperLinkStyle.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\Resources\Styles\EzerLaMorehStyles\TextBoxStyle.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\Resources\Styles\EzerLaMorehStyles\EzerCoreStyles.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\App.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\Resources\Styles\EzerLaMorehStyles\CalendarStyle.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\CustomUser Controls\StudentViewControl.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\CustomUser Controls\StudentViewControl.g.cs
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\Resources\Styles\EzerLaMorehStyles\IconResources.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\Resources\Styles\EzerLaMorehStyles\DataGridStyle.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\Resources\Styles\EzerLaMorehStyles\WindowStyles.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\Resources\Styles\EzerLaMorehStyles\Brushes.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\Resources\Styles\EzerLaMorehStyles\ContentControlStyle.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\Resources\Styles\EzerLaMorehStyles\BordersStyles.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\bin\Debug\de\System.Windows.Interactivity.resources.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\bin\Debug\en\System.Windows.Interactivity.resources.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\bin\Debug\es\System.Windows.Interactivity.resources.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\bin\Debug\it\System.Windows.Interactivity.resources.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\View\NewObjectDialogs\NewClassModalDialog.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\View\NewObjectDialogs\NewClassModalDialog.g.cs
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\View\NewObjectDialogs\NewStudentModalDialog.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\View\NewObjectDialogs\NewStudentModalDialog.g.cs
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\CustomUser Controls\EditPicWindow.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\CustomUser Controls\EditPicWindow.g.cs
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\CustomUser Controls\OkCancelButtons.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\CustomUser Controls\OkCancelButtons.g.cs
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\CustomUser Controls\CloseButton.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\obj\Debug\CustomUser Controls\CloseButton.g.cs
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\EzerLaMoreh.exe.config
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\EzerLaMoreh.exe
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\EzerLaMoreh.pdb
+F:\MyProjects\EzerLaMoreh\EzerLaMoreh\EzerLaMoreh\bin\Debug\System.Windows.Interactivity.xml
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\EzerLaMoreh.csprojResolveAssemblyReference.cache
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\CustomUser Controls\CloseButton.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\CustomUser Controls\OkCancelButtons.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\CustomUser Controls\StudentViewControl.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\Resources\Styles\EzerLaMorehStyles\BordersStyles.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\Resources\Styles\EzerLaMorehStyles\ContentControlStyle.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\Resources\Styles\EzerLaMorehStyles\Brushes.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\Resources\Styles\EzerLaMorehStyles\DataGridStyle.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\Resources\Styles\EzerLaMorehStyles\IconResources.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\Resources\Styles\EzerLaMorehStyles\ButtonStyles.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\Resources\Styles\EzerLaMorehStyles\CalendarStyle.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\Resources\Styles\EzerLaMorehStyles\EzerCoreStyles.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\Resources\Styles\EzerLaMorehStyles\HyperLinkStyle.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\Resources\Styles\EzerLaMorehStyles\LabelStyles.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\Resources\Styles\EzerLaMorehStyles\TextBoxStyle.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\Resources\Styles\EzerLaMorehStyles\WindowStyles.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\Resources\Styles\EzerLamorehSystemStyles.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\View\Class1WorkSpaceView.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\CustomUser Controls\CloseButton.g.cs
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\CustomUser Controls\EditPicWindow.g.cs
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\CustomUser Controls\OkCancelButtons.g.cs
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\CustomUser Controls\StudentViewControl.g.cs
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\View\NewObjectDialogs\NewStudentModalDialog.g.cs
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\View\Class1WorkSpaceView.g.cs
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\View\MainView.g.cs
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\View\NewObjectDialogs\NewClassModalDialog.g.cs
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\View\StudentsWorkSpaceView.g.cs
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\App.g.cs
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\EzerLaMoreh_Content.g.cs
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\EzerLaMoreh_MarkupCompile.cache
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\EzerLaMoreh_MarkupCompile.lref
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\EzerLaMoreh.exe
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\EzerLaMoreh.pdb
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\CommonClasses.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\EntityFramework.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\EzerLaMorehEntity.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\Microsoft.Practices.Unity.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\Microsoft.Windows.Shell.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\Model.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\ribboncontrolslibrary.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\System.Windows.Interactivity.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\Utilities.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\Enums.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\CommonClasses.pdb
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\EzerLaMorehEntity.pdb
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\Model.pdb
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\Utilities.pdb
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\EntityFramework.xml
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\Microsoft.Windows.Shell.pdb
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\Microsoft.Windows.Shell.xml
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\ribboncontrolslibrary.pdb
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\ribboncontrolslibrary.xml
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\System.Windows.Interactivity.xml
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\Enums.pdb
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\de\System.Windows.Interactivity.resources.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\en\System.Windows.Interactivity.resources.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\es\System.Windows.Interactivity.resources.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\it\System.Windows.Interactivity.resources.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\App.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\CustomUser Controls\EditPicWindow.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\View\NewObjectDialogs\NewStudentModalDialog.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\View\MainView.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\View\NewObjectDialogs\NewClassModalDialog.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\View\StudentsWorkSpaceView.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\EzerLaMoreh.g.resources
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\EzerLaMoreh.Properties.Resources.resources
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\EzerLaMoreh.csproj.GenerateResource.Cache
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\Resources\Styles\EzerLaMorehStyles\DateTimePickerStyle.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\Helpers\Extras\TitleBanner.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\Helpers\Extras\TitleBanner.g.cs
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\system.windows.controls.datavisualization.toolkit.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\WPFToolkit.dll
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\system.windows.controls.datavisualization.toolkit.pdb
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\bin\Debug\WPFToolkit.pdb
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\View\DisciplineWorkSpaceView.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\View\DisciplineWorkSpaceView.g.cs
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\CustomUser Controls\BehaveInputControl.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\Resources\Styles\EzerLaMorehStyles\ComboBoxStyle.baml
+F:\MyProjects\EzerLaMoreh\EzerLaMorehX\EzerLaMoreh\obj\Debug\CustomUser Controls\BehaveInputControl.g.cs
